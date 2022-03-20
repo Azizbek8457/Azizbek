@@ -1,8 +1,7 @@
 <?php
 
 ob_start();
-define('API_KEY','5240223901:AAHX-qbJrK1q0WoGizK0DoR8QGb552wGBPA');//BOT TOKEN
-echo "https://api.telegram.org/bot" . API_KEY . "/setwebhook?url=matmurodov.unaux.com/Azizbek/bot.php" . 
+define('API_KEY','5209382677:AAEwKsNrjijnVI6xlwx_NbJFD4vKOJj0JH4');//BOT TOKEN 
 
 $admin ="2086136108"; //ADMIN ID 
 function bot($method,$datas=[]){
